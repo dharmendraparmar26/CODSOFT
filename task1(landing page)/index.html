@@ -1,1 +1,134 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mobile Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="header-content-div">
+            <a href="#home-sec">
+                <img
+                    src="images/logo.png"
+                    alt="Company Logo"
+                    id="header-img"
+                />
+            </a>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#varieties" class="nav-link">MODELS</a>
+                <a href="#our-service" class="nav-link">OUR SERVICE</a>
+                <a href="#benefits" class="nav-link">BENEFITS</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home-sec" class="flexible home-sec">
+            <div class="eye-grabber-img">
+                <img src="./images/smartphone-and-mobile-phone-free-png.webp" alt="Image of Mobile Phones" />
+            </div>
+            <div class="eye-grabber">
+                <h1>Latest, Stylish, Innovative.</h1>
+                <h2>
+                    Explore our collection of cutting-edge mobile phones for all your communication needs.
+                </h2>
+                <button class="btn" onclick="window.location.href = '#contact';">
+                    Buy Now
+                </button>
+            </div>
+        </section>
+        <section id="about" class="sec-padding">
+            <h3 class="section-heading">ABOUT US</h3>
+            <div class="sec-content-div flexible">
+                <p>
+                    We are a team passionate about bringing you the latest mobile technology. With years of experience in the industry, we understand the importance of sleek design, powerful features, and seamless performance. Our phones are crafted to keep you connected and entertained, no matter where you go.
+                </p>
+                <img src="./images/pexels-kerde-severin-1542252.jpg" alt="A man using a mobile phone" />
+            </div>
+        </section>
+        <section id="varieties" class="sec-padding">
+            <h3 class="section-heading">MODELS</h3>
+            <div class="sec-content-div flexible">
+                <div class="tile">
+                    <img src="./images/photo-1511707171634-5f897ff02aa9.jpeg" alt="photo of mobile phone model" />
+                    <h4>Amber 2023</h4>
+                    <p>
+                        Discover the elegance and performance of our flagship model, perfect for those who demand the best.
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="./images/photo-1546054454-aa26e2b734c7.jpeg" alt="photo of mobile phone model" />
+                    <h4>American Trel X</h4>
+                    <p>
+                        Experience innovation with our powerful and versatile model, designed for every lifestyle.
+                    </p>
+                </div>
+                <!-- Add more models as needed -->
+            </div>
+        </section>
+        <section id="our-service" class="sec-padding">
+            <h3 class="section-heading">OUR SERVICE</h3>
+            <div class="sec-content-div">
+                <div class="bars">
+                    <div class="icon-container">
+                        <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+                    </div>
+                    <div class="txt-container">
+                        <h5>        New Models</h5>
+                        <p>We deliver brand new, factory-sealed phones with guaranteed quality.</p>
+                    </div>
+                </div>
+                <div class="bars">
+                    <div class="icon-container">
+                        <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+                    </div>
+                    <div class="txt-container">
+                        <h5>Fast Delivery</h5>
+                        <p>
+                            We offer quick and reliable delivery to get your new phone to you as soon as possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="bars">
+                    <div class="icon-container">
+                        <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+                    </div>
+                    <div class="txt-container">
+                        <h5>Customers Satisfaction</h5>
+                        <p>
+                            Your satisfaction is our priority. If you encounter any issues, our dedicated support team is here to help.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="sec-padding" id="contact">
+            <h3 class="section-heading">CONTACT</h3>
+            <div class="sec-content-div flexible">
+                <h6>To place an order or for more information, contact us:</h6>
+                <form
+                    id="form"
+                    action="https://www.freecodecamp.com/email-submit"
+                    method="POST"
+                >
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email Address"
+                        required
+                    />
+                    <input type="submit" class="btn" id="submit" value="Get in Touch" />
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Created by
+        <a href="#">Dharmendra Parmar</a>
+    </footer>
+</body>
+</html>
